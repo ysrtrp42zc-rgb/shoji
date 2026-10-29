@@ -2409,7 +2409,7 @@ if(SHOW_VER){const v=document.createElement('div');v.id='verTag';v.textContent=V
    alead ：声音慢慢变小的时长（1.6 = 最后 1.6 秒；比 lead 短一点，免得最后一句话听不清）
    hold  ：到点后，“通话已结束”停留几秒
    out   ：最后整个通话画面慢慢淡出、露出相册，用几秒（越大越慢） */
-const VC={name:'૮⁔.  ̫ .⁔ა . ⁺',avatar:'wx_icon1.jpg',big:['http://tnnu8xxki.hd-bkt.clouddn.com/spth2.mp4','spth.mp4'],small:'http://tnnu8xxki.hd-bkt.clouddn.com/spth1.mp4',delay:3000,endAt:10,lead:2.6,alead:1.6,hold:1.8,out:1.6};
+const VC={name:'૮⁔.  ̫ .⁔ა . ⁺',avatar:'wx_icon1.jpg',big:['spth2.mp4','spth.mp4'],small:'spth1.mp4',delay:3000,endAt:10,lead:2.6,alead:1.6,hold:1.8,out:1.6};
 const vc={st:0,tm:0,tk:0,mic:true,spk:true,cam:true,fail:false,sfail:false,t0:0,fin:0}; /* st：0 待来电 / 1 横幅显示中 / 2 通话中 / 3 已通话完；fin：1 = 正在慢慢收尾 */
 const vcI={
   bell:'<svg viewBox="0 0 24 24"><path d="M6 17h12l-1.600-2.200V10a4.400 4.400 0 0 0-8.800 0v4.800z"/><path d="M10.500 20a1.600 1.600 0 0 0 3 0"/><path d="M4 4l16 16"/></svg>',
